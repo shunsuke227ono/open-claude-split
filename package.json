@@ -1,0 +1,31 @@
+{
+  "name": "open-claude-split",
+  "displayName": "Open Claude in New Split",
+  "description": "Opens a new Claude Code session in a new split pane to the right with a single shortcut (Ctrl+Option+N on Mac)",
+  "version": "0.1.0",
+  "publisher": "shunsukeono",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shunsukeono/open-claude-split"
+  },
+  "engines": { "vscode": "^1.70.0" },
+  "categories": ["Other"],
+  "keywords": ["claude", "claude code", "split", "ai", "anthropic"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "open-claude-split.open",
+        "title": "Open Claude in New Split"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "open-claude-split.open",
+        "key": "ctrl+alt+n",
+        "mac": "ctrl+alt+n"
+      }
+    ]
+  },
+  "activationEvents": ["onCommand:open-claude-split.open"]
+}
