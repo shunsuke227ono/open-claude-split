@@ -20,7 +20,7 @@ Press it multiple times to keep adding Claude sessions side by side.
 
 ### Option A: Install from .vsix (easiest)
 
-1. Download `open-claude-split-X.X.X.vsix` from [Releases](https://github.com/shunsukeono/open-claude-split/releases)
+1. Download `open-claude-split-X.X.X.vsix` from [Releases](https://github.com/shunsuke227ono/open-claude-split/releases)
 2. Run:
    ```
    code --install-extension open-claude-split-X.X.X.vsix
@@ -29,11 +29,11 @@ Press it multiple times to keep adding Claude sessions side by side.
 ### Option B: Install from source
 
 ```bash
-git clone https://github.com/shunsukeono/open-claude-split
+git clone https://github.com/shunsuke227ono/open-claude-split
 cp -r open-claude-split ~/.vscode/extensions/open-claude-split-0.1.0
 ```
 
-Then add to `~/.vscode/extensions/extensions.json` (see [manual install guide](https://github.com/shunsukeono/open-claude-split/wiki/Manual-Install)).
+Then add to `~/.vscode/extensions/extensions.json` (see [manual install guide](https://github.com/shunsuke227ono/open-claude-split/wiki/Manual-Install)).
 
 ## Requirements
 

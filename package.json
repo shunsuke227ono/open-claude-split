@@ -6,7 +6,7 @@
   "publisher": "shunsukeono",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shunsukeono/open-claude-split"
+    "url": "https://github.com/shunsuke227ono/open-claude-split"
   },
   "engines": { "vscode": "^1.70.0" },
   "categories": ["Other"],
